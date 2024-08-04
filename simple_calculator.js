@@ -1,6 +1,8 @@
-#! usr/bin/env code
-import inquirer from "inquirer";
-const answer = await inquirer.prompt([
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+//#! usr/bin/env code
+var inquirer_1 = require("inquirer");
+var answer = await inquirer_1.default.prompt([
     { message: "Enter first number", type: "number", name: "firstnumber" },
     { message: "Enter second number", type: "number", name: "secondnumber" },
     { message: "Select one of the operators to perform action",
